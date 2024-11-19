@@ -4,7 +4,11 @@ void main() {
 
   if (number % 2 == 0) {
     print("$number is even.");
-  } else {
+  } elseif {
     print("$number is odd.");
+  }
+  else
+  {
+    print("test")
   }
 }
